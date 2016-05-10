@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="Germinate.css">
+
+<title> Germinate. </title>
+
+</head>
+
+<body>
+
+<button onClick = "germinate()"> <h1> Germinate. </h1> </button>
+
+<br/>
+
+<span id = message></span>
+
+<div id = resourceAll>
+
+	<div id = waterAll> WATER: <span id = water>0</span> (<span id = waterChange>0</span>) </div>
+ 
+	<div id = sugarAll> SUGAR: <span id = sugar>0</span> (<span id = sugarChange>0</span>) </div>
+
+	<div id = mineralAll> MINERALS: <span id = mineral>0</span> (<span id = mineralChange>0</span>) </div>
+
+</div>
+
+<button onClick = "nextTurn()"> next week (week: <span id="turnNum">14</span> )</button>
+
+<br/>
+
+<button onClick = "growLeaf()"> grow leaf (leaves: <span id = leafNum>0</span> )</button>
+
+<br/>
+
+<button onClick = "growStem()"> grow stem (stems: <span id = stemNum>0</span> )</button>
+
+<br/>
+
+<button onClick = "growRoot()"> grow root (roots: <span id = rootNum>0</span> )</button>
+
+<br/>
+
+<script type="text/javascript" src="Germinate.js"></script>
+
+</body>
+
+</html> 

@@ -1,0 +1,30 @@
+/* CSS Document */
+
+body{
+	background-color:white;
+}
+
+#mineralAll{
+	color:red;
+}
+
+#waterAll{
+	color:blue;
+}
+
+#sugarAll{
+	color:green;
+}
+
+#resourceAll{
+	width: 150px;
+	background-color:white;	
+	text-align:center;
+}
+
+button{
+	width:150px;
+	background-color:grey;
+	text-color:red;
+	border-color:grey;
+}
