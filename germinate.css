@@ -2,6 +2,8 @@
 
 body{
 	background-color:white;
+	text-align:center;
+	align-self:center;
 }
 
 #mineralAll{
@@ -17,14 +19,21 @@ body{
 }
 
 #resourceAll{
-	width: 150px;
+	width:50%;
 	background-color:white;	
 	text-align:center;
 }
 
 button{
-	width:150px;
-	background-color:grey;
-	text-color:red;
-	border-color:grey;
+	width:50%;
+	background-color:white;
+	border-color:black;
+	border-radius:5px;
+	transition-duration: 1s;
+}
+
+button:hover{
+	background-color:black;
+	color:white;
+	width:75%;
 }
